@@ -1,6 +1,6 @@
 # Panaderia Las Delicias
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+El objetivo de este proyecto es crear una pagina web sobre la panaderia de mi familia
 
 ## Creating a project
 
