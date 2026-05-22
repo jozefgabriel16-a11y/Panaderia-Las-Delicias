@@ -22,4 +22,38 @@
 
 {@render children()}
 
-Footer
+<footer>
+
+<div>
+	<p>L'artisan</p>
+
+	<a href="">A boutique bakery dedicated to the preservation of traditional french baking methods and organic ingredients</a>
+
+</div>
+
+<div>
+	<p>Explore</p>
+
+	<a href="">conact</a>
+	<a href="">opening hours</a>
+	<a href="">location</a>
+	<a href="">journal</a>
+
+</div>
+
+<div>
+	<p>connect</p>
+
+	<a href="">instagram</a>
+	<a href="">newsletter</a>
+
+</div>
+
+<div>
+	<p>location</p>
+
+	<a href="">Paris,France</a>
+	<a href="">tuesday-sunday: 7:00am-18:00pm</a>
+	
+</div>
+</footer>
