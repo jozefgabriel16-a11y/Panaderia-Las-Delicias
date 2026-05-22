@@ -35,7 +35,7 @@
 	<div>
 		<p>Explore</p>
 
-		<a href="">conact</a>
+		<a href="">contact</a>
 		<a href="">opening hours</a>
 		<a href="">location</a>
 		<a href="">journal</a>
