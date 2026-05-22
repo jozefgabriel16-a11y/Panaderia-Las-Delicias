@@ -27,3 +27,30 @@
         </p>
     </div>
 </section>
+
+<section>
+    <div>
+        <p>the collection</p>
+        <p>weekley curations</p>
+    </div>
+
+    <div>
+        <div>
+            <img src="" alt="" />
+            <p>croissant clasique</p>
+            <p>4.00$</p>
+        </div>
+
+        <div>
+            <img src="" alt="" />
+            <p>pain an chocolat</p>
+            <p>5.00$</p>
+        </div>
+
+        <div>
+            <img src="" alt="" />
+            <p>campagne sourdouth</p>
+            <p>3.00$</p>
+        </div>
+    </div>
+</section>
