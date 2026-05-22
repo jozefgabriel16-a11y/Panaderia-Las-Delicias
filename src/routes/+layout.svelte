@@ -1,6 +1,6 @@
 <script lang="ts">
-	import './layout.css';
-	import favicon from '$lib/assets/favicon.svg';
+	import "./layout.css";
+	import favicon from "$lib/assets/favicon.svg";
 
 	let { children } = $props();
 </script>
@@ -18,42 +18,40 @@
 	</div>
 
 	<button>Visit us</button>
-</nav> 
+</nav>
 
 {@render children()}
 
 <footer>
+	<div>
+		<p>L'artisan</p>
 
-<div>
-	<p>L'artisan</p>
+		<a href=""
+			>A boutique bakery dedicated to the preservation of traditional
+			french baking methods and organic ingredients</a
+		>
+	</div>
 
-	<a href="">A boutique bakery dedicated to the preservation of traditional french baking methods and organic ingredients</a>
+	<div>
+		<p>Explore</p>
 
-</div>
+		<a href="">conact</a>
+		<a href="">opening hours</a>
+		<a href="">location</a>
+		<a href="">journal</a>
+	</div>
 
-<div>
-	<p>Explore</p>
+	<div>
+		<p>connect</p>
 
-	<a href="">conact</a>
-	<a href="">opening hours</a>
-	<a href="">location</a>
-	<a href="">journal</a>
+		<a href="">instagram</a>
+		<a href="">newsletter</a>
+	</div>
 
-</div>
+	<div>
+		<p>location</p>
 
-<div>
-	<p>connect</p>
-
-	<a href="">instagram</a>
-	<a href="">newsletter</a>
-
-</div>
-
-<div>
-	<p>location</p>
-
-	<a href="">Paris,France</a>
-	<a href="">tuesday-sunday: 7:00am-18:00pm</a>
-	
-</div>
+		<a href="">Paris,France</a>
+		<a href="">tuesday-sunday: 7:00am-18:00pm</a>
+	</div>
 </footer>
