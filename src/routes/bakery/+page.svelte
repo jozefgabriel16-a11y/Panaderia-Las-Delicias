@@ -26,16 +26,19 @@
     <p>Tortas</p>
     <div>
         <div>
-            <img src="/ch.jpg" alt="" />
             <p>torta de chocolate</p>
+            <img src="/ch.jpg" alt="" />
+            <p>1500bs</p>
         </div>
         <div>
-            <img src="/vai.jpeg" alt="" />
             <p>torta de vainilla</p>
+            <img src="/vai.jpeg" alt="" />
+            <p>1500bs</p>
         </div>
         <div>
-            <img src="/fre.jpg" alt="" />
             <p>torta de fresa</p>
+            <img src="/fre.jpg" alt="" />
+            <p>1500bs</p>
         </div>
     </div>
 </section>
