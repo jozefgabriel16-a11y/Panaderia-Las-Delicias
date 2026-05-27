@@ -1,7 +1,7 @@
 <script lang="ts">
 	import "./layout.css";
 	import favicon from "$lib/assets/favicon.svg";
-    import Icon from "@iconify/svelte";
+	import Icon from "@iconify/svelte";
 
 	let { children } = $props();
 </script>
@@ -9,13 +9,13 @@
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
 <nav>
-	<p> <Icon icon="mdi:bakery" width={60} height={60}/>L'artisan</p>
+	<p><Icon icon="mdi:bakery" width={60} height={60} />L'artisan</p>
 
 	<div>
 		<a href="/">Home</a>
-		<a href="/bakery">Pastelería</a>
-		<a href="/breads">Panes</a>
-		<a href="/breakfast">Desayunos</a>
+		<a href="/breads">Panes <Icon icon="mdi:bread" /></a>
+		<a href="/bakery">Pastelería <Icon icon="mdi:chocolate" /></a>
+		<a href="/breakfast">Desayunos <Icon icon="fluent-mdl2:breakfast" /></a>
 	</div>
 
 	<button>Visit us</button>
