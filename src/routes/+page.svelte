@@ -1,15 +1,14 @@
-<section>
-    <div>
-        <p>the art of the daily grain</p>
-        <p>
-            slow fermented sourdough,organic stoneground flour, and the patience
-            of master craftsmen. Welcome to the boutique experience of bread
+<section class="flex items-center justify-between">
+    <div class="flex-1 px-5 py-3 space-y-4">
+        <p class="text-5xl font-bold gap-1.5 ">El arte del buen pan</p>
+        <p class="text-2xl gap-1.5  ">
+            Pan fresco con los ingredientes de la mejor calidad
         </p>
 
-        <button>Reserve today</button>
+        <button class="px-10 py-2 items-end text-2xl font-bold bg-stone-600 text-amber-50">Pide ahora </button>
     </div>
-    <div>
-        <img src="torta.avif" alt="" />
+    <div class="flex-2">
+        <img src="/paninicio.jpg" alt="" />
     </div>
 </section>
 
