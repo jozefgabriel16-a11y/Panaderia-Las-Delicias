@@ -8,17 +8,20 @@
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
-<nav>
-	<p><Icon icon="mdi:bakery" width={60} height={60} />L'artisan</p>
+<nav class="flex justify-between items-center px-10 py-3">
+	<p class="text-xl font-extrabold flex gap-0.5 items-center">
+		<Icon icon="mdi:bakery" width={60} height={60} />
+		Panaderia Las Delicias 
+	</p>
 
-	<div>
-		<a href="/">Home</a>
-		<a href="/breads">Panes <Icon icon="mdi:bread" /></a>
-		<a href="/bakery">Pastelería <Icon icon="mdi:chocolate" /></a>
-		<a href="/breakfast">Desayunos <Icon icon="fluent-mdl2:breakfast" /></a>
+	<div class="flex gap-3.5">
+		<a class="flex gap-0.5 items-center" href="/">Home</a>
+		<a class="flex gap-0.5 items-center" href="/breads">Panes <Icon icon="mdi:bread" /></a>
+		<a class="flex gap-0.5 items-center" href="/bakery">Pastelería <Icon icon="mdi:chocolate" /></a>
+		<a class="flex gap-0.5 items-center" href="/breakfast">Desayunos <Icon icon="fluent-mdl2:breakfast" /></a>
 	</div>
-
-	<button>Visit us</button>
+ 
+	<button class="font-extrabold text-amber-50 px-7 py-1.5 bg-stone-600">Visit us</button>
 </nav>
 
 {@render children()}
