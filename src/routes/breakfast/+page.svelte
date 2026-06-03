@@ -1,12 +1,12 @@
-<section>
-    <div>
-        <p>Desayunos</p>
+<section class="flex gap-7 items-center">
+    <div class="px-5 py-3 text-2xl ">
+        <p class="text-4xl font-extrabold">Desayunos</p>
         <p>Comience su mañana con la elegancia de nuestros desayunos y cafe</p>
         <p>Servido diariamente hasta las 12pm</p>
     </div>
 
     <div>
-        <img src="desayuno.jpg" alt="" />
+        <img class="flex px-5" src="desayuno.jpg" alt="" />
     </div>
 </section>
 
