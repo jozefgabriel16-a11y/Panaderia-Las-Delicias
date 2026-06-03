@@ -15,26 +15,28 @@
 </section>
 
 <section class=" py-3 px-5">
-    <div>
-        <p class="items-center text-5xl font-bold ">Tortas</p>
+    <div class="py-8">
+        <p class="items-center text-5xl font-bold text-center">Tortas</p>
     </div>
 
-    <div class="flex">
-        <div class="flex-1">
+    <div class="flex gap-20 p-12">
+        <div class="flex-2">
             <p>torta de chocolate</p>
-            <img class="flex flex-2 w-full h-full object-cover" src="/ch.jpg" alt="" />
+            <img class="flex flex-2 w-full h-[1024px] object-cover" src="/ch.jpg" alt="" />
             <p>1500bs</p>
         </div>
 
-        <div class="flex-1">
-            <div>
-                <p>torta de vainilla</p>
-                <img src="/vai.jpeg" alt="" />
-                <p>1500bs</p>
+        <div class="flex-3">
+            <div class="flex items-end gap-5">
+                <img src="/vai.jpeg" alt="" class="h-48 w-48 object-cover" />
+                <div class="flex justify-between flex-1">
+                    <p class="text-xl">torta de vainilla</p>
+                    <p>1500bs</p>
+                </div>
             </div>
             <div>
                 <p>torta de fresa</p>
-                <img src="/fre.jpg" alt="" />
+                <img src="/fre.jpg" alt="" class="h-48 w-48 object-cover" />
                 <p>1500bs</p>
             </div>
         </div>
