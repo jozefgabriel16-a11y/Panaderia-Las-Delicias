@@ -11,7 +11,7 @@
     </p>
 </section>
 
-<section>
+<section class="flex justify-between py-3">
     <Alfajor
         precio={5.0}
         titulo="Alfajor de chocolate"
@@ -22,23 +22,27 @@
     <Alfajor precio={4.0} titulo="Alfajor de fresa" img="/alfajorb.jpg" />
 </section>
 
-<section>
-    <p>Tortas</p>
-    <div>
+<section class="flex justify-between py-3">
+    <div class="flex flex-1">
+        <div>
+            <p>Tortas</p>
+        </div>
         <div>
             <p>torta de chocolate</p>
-            <img src="/ch.jpg" alt="" />
+            <img class="flex flex-2" src="/ch.jpg" alt="" />
             <p>1500bs</p>
         </div>
-        <div>
-            <p>torta de vainilla</p>
-            <img src="/vai.jpeg" alt="" />
-            <p>1500bs</p>
-        </div>
-        <div>
-            <p>torta de fresa</p>
-            <img src="/fre.jpg" alt="" />
-            <p>1500bs</p>
+        <div class="flex flex-1">
+            <div>
+                <p>torta de vainilla</p>
+                <img src="/vai.jpeg" alt="" />
+                <p>1500bs</p>
+            </div>
+            <div>
+                <p>torta de fresa</p>
+                <img src="/fre.jpg" alt="" />
+                <p>1500bs</p>
+            </div>
         </div>
     </div>
 </section>
