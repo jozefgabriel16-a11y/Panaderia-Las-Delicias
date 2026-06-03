@@ -2,16 +2,8 @@
     import Alfajor from "$lib/components/Alfajor.svelte";
 </script>
 
-<section>
-    <p>La Collection</p>
-    <p>Pastelería boutique</p>
-    <p>
-        A curated symphony off French tradition and modern art with a
-        sensasional ingredients
-    </p>
-</section>
 
-<section class="flex justify-between py-3">
+<section class="flex py-3 px-5 gap-5">
     <Alfajor
         precio={5.0}
         titulo="Alfajor de chocolate"
@@ -22,20 +14,17 @@
     <Alfajor precio={4.0} titulo="Alfajor de fresa" img="/alfajorb.jpg" />
 </section>
 
-<section class=" py-3">
+<section class=" py-3 px-5">
     <div>
-        <p>Tortas</p>
+        <p class="items-center text-5xl font-bold ">Tortas</p>
     </div>
 
     <div class="flex">
-
-
         <div class="flex-1">
             <p>torta de chocolate</p>
-            <img class="flex flex-2" src="/ch.jpg" alt="" />
+            <img class="flex flex-2 w-full h-full object-cover" src="/ch.jpg" alt="" />
             <p>1500bs</p>
         </div>
-
 
         <div class="flex-1">
             <div>
@@ -50,5 +39,4 @@
             </div>
         </div>
     </div>
-
 </section>
