@@ -22,17 +22,22 @@
     <Alfajor precio={4.0} titulo="Alfajor de fresa" img="/alfajorb.jpg" />
 </section>
 
-<section class="flex justify-between py-3">
-    <div class="flex flex-1">
-        <div>
-            <p>Tortas</p>
-        </div>
-        <div>
+<section class=" py-3">
+    <div>
+        <p>Tortas</p>
+    </div>
+
+    <div class="flex">
+
+
+        <div class="flex-1">
             <p>torta de chocolate</p>
             <img class="flex flex-2" src="/ch.jpg" alt="" />
             <p>1500bs</p>
         </div>
-        <div class="flex flex-1">
+
+
+        <div class="flex-1">
             <div>
                 <p>torta de vainilla</p>
                 <img src="/vai.jpeg" alt="" />
@@ -45,4 +50,5 @@
             </div>
         </div>
     </div>
+
 </section>
