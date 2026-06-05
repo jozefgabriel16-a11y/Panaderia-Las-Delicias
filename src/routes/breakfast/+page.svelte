@@ -1,12 +1,12 @@
 <section class="flex gap-7 items-center">
     <div class="px-5 py-3 text-2xl ">
-        <p class="text-4xl font-extrabold">Desayunos</p>
-        <p>Comience su mañana con la elegancia de nuestros desayunos y cafe</p>
-        <p>Servido diariamente hasta las 12pm</p>
+        <p class="text-7xl font-extrabold playfair-display-600 py-4">Desayunos</p>
+        <p class="">Comience su mañana con la elegancia de nuestros desayunos y cafe</p>
+        <p class="">De lunes a sabado de 6:30Am a 6:00Pm</p>
     </div>
 
-    <div>
-        <img class="flex px-5" src="desayuno.jpg" alt="" />
+    <div class="h-[600px]">
+        <img class="flex px-5 w-full h-full object-cover " src="desayuno.jpg" alt="" />
     </div>
 </section>
 

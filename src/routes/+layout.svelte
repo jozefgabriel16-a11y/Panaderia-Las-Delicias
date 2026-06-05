@@ -9,7 +9,7 @@
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
 <nav class="flex justify-between items-center px-10 py-3">
-	<p class="text-3xl font-extrabold font-serif flex gap-0.5 items-center">
+	<p class="text-3xl font-extrabold font-serif flex gap-0.5 items-center playfair-display-600">
 		<Icon icon="mdi:bakery" width={60} height={60} />
 		Panaderia <br> Las Delicias 
 	</p>
