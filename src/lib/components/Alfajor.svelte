@@ -1,5 +1,9 @@
 <script>
     const { precio, titulo, img } = $props();
+
+    const usuario = {
+     
+    }
 </script>
 
 <div class="flex-1 text-xl ">

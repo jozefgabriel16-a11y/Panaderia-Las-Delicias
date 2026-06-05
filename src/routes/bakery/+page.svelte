@@ -3,9 +3,14 @@
 </script>
 
 <section class="py-5">
-    <p class="flex justify-center text-lg playfair-display-600 ">LA COLECCIÓN</p>
-    <p class="flex justify-center text-7xl playfair-display-600  ">Pastelería las delicias</p>
-    <p class="flex justify-center text-3xl py-5">A curated symphony of French tradition and modern artistry. Each piece is hand-crafted daily using the world's finest seasonal ingredients.</p>
+    <p class="flex justify-center text-lg playfair-display-600">LA COLECCIÓN</p>
+    <p class="flex justify-center text-7xl playfair-display-600">
+        Pastelería las delicias
+    </p>
+    <p class="flex justify-center text-3xl py-5">
+        A curated symphony of French tradition and modern artistry. Each piece
+        is hand-crafted daily using the world's finest seasonal ingredients.
+    </p>
 </section>
 
 <section class=" py-3 px-5">
@@ -15,7 +20,11 @@
 
     <div class="flex gap-16 p-12">
         <div class="flex-2">
-            <img class="flex flex-2 w-full h-[740px] object-cover" src="/ch.jpg" alt="" />
+            <img
+                class="flex flex-2 w-full h-[740px] object-cover"
+                src="/ch.jpg"
+                alt=""
+            />
             <p class="playfair-display-600 text-5xl">torta de chocolate</p>
             <p>1500bs</p>
         </div>
@@ -24,22 +33,25 @@
             <div class="flex items-end gap-5">
                 <img src="/vai.jpeg" alt="" class="h-48 w-48 object-cover" />
                 <div class="flex justify-between flex-1 text-stone-900">
-                    <p class="text-2xl playfair-display-600">torta de vainilla</p>
+                    <p class="text-2xl playfair-display-600">
+                        torta de vainilla
+                    </p>
                     <p class="text-lg text-stone-800">1500bs</p>
                 </div>
             </div>
             <div class="flex items-end gap-5">
                 <img src="/fre.jpg" alt="" class="h-48 w-48 object-cover" />
-                <div  class="flex justify-between flex-1 text-stone-900">
+                <div class="flex justify-between flex-1 text-stone-900">
                     <p class="text-2xl playfair-display-600">torta de fresa</p>
                     <p class="text-lg text-stone-800">1500bs</p>
-
                 </div>
             </div>
             <div class="flex items-end gap-5">
                 <img src="/vai.jpeg" alt="" class="h-48 w-48 object-cover" />
                 <div class="flex justify-between flex-1 text-stone-900">
-                    <p class="text-2xl playfair-display-600">torta de vainilla</p>
+                    <p class="text-2xl playfair-display-600">
+                        torta de vainilla
+                    </p>
                     <p class="text-lg text-stone-800">1500bs</p>
                 </div>
             </div>
@@ -57,4 +69,3 @@
     <Alfajor precio={3.0} titulo="Alfajor de crema" img="/alfajora.jpg" />
     <Alfajor precio={4.0} titulo="Alfajor de fresa" img="/alfajorb.jpg" />
 </section>
-
