@@ -2,10 +2,10 @@
     import Alfajor from "$lib/components/Alfajor.svelte";
 </script>
 
-<section>
-    <p>LA COLECCIÓN</p>
-    <p>Pastelería las delicias</p>
-    <p>A curated symphony of French tradition and modern artistry. Each piece is hand-crafted daily using the world's finest seasonal ingredients.</p>
+<section class="py-5">
+    <p class="flex justify-center text-lg playfair-display-600 ">LA COLECCIÓN</p>
+    <p class="flex justify-center text-7xl playfair-display-600  ">Pastelería las delicias</p>
+    <p class="flex justify-center text-3xl py-5">A curated symphony of French tradition and modern artistry. Each piece is hand-crafted daily using the world's finest seasonal ingredients.</p>
 </section>
 
 <section class=" py-3 px-5">
