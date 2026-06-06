@@ -7,7 +7,7 @@
     <p class="flex justify-center text-7xl playfair-display-600">
         Pastelería las delicias
     </p>
-    <p class="flex justify-center text-3xl py-5">
+    <p class="flex justify-center text-3xl py-5 px-5">
         A curated symphony of French tradition and modern artistry. Each piece
         is hand-crafted daily using the world's finest seasonal ingredients.
     </p>
@@ -15,14 +15,14 @@
 
 <section class=" py-3 px-5">
     <div class="py-8">
-        <p class="items-center text-5xl font-bold text-center">Tortas</p>
+        <p class="items-center text-5xl font-bold text-center playfair-display-600">Tortas</p>
     </div>
 
     <div class="flex gap-16 p-12">
         <div class="flex-2">
             <img
-                class="flex flex-2 w-full h-[740px] object-cover"
-                src="/ch.jpg"
+                class="flex flex-2 w-full h-[690px] object-cover"
+                src="tortah.jpg"
                 alt=""
             />
             <p class="playfair-display-600 text-5xl">torta de chocolate</p>
