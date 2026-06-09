@@ -26,7 +26,7 @@
                 alt=""
             />
             <p class="playfair-display-600 text-5xl">torta de chocolate</p>
-            <p>1500bs</p>
+            <p>2.5</p>
         </div>
 
         <div class="flex-3 space-y-16">
@@ -36,14 +36,14 @@
                     <p class="text-2xl playfair-display-600">
                         torta de vainilla
                     </p>
-                    <p class="text-lg text-stone-800">1500bs</p>
+                    <p class="text-lg text-stone-800">2.5$</p>
                 </div>
             </div>
             <div class="flex items-end gap-5">
                 <img src="/fre.jpg" alt="" class="h-48 w-48 object-cover" />
                 <div class="flex justify-between flex-1 text-stone-900">
                     <p class="text-2xl playfair-display-600">torta de fresa</p>
-                    <p class="text-lg text-stone-800">1500bs</p>
+                    <p class="text-lg text-stone-800">2.5$</p>
                 </div>
             </div>
             <div class="flex items-end gap-5">
@@ -52,7 +52,7 @@
                     <p class="text-2xl playfair-display-600">
                         torta de vainilla
                     </p>
-                    <p class="text-lg text-stone-800">1500bs</p>
+                    <p class="text-lg text-stone-800">2.5$</p>
                 </div>
             </div>
         </div>

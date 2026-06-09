@@ -4,18 +4,18 @@
     <div>
         <p>Canilla</p>
         <img src="/can.jpg" alt="" />
-        <p>450 Bs</p>
+        <p>0.7$</p>
     </div>
 
     <div>
         <p>Siciliano</p>
         <img src="/sic.avif" alt="" />
-        <p>1200Bs</p>
+        <p>2$</p>
     </div>
 
     <div>
         <p>Campesino</p>
         <img src="/camp.jpg" alt="" />
-        <p>600Bs</p>
+        <p>1$</p>
     </div>
 </section>
