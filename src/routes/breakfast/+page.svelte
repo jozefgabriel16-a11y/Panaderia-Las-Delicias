@@ -1,3 +1,24 @@
+<section class="py-3">
+    <p
+        class="flex text-7xl font-bold gap-1.5 playfair-display-600 justify-center py-1.5"
+    >
+        Cafe
+    </p>
+    <p class="flex text-2xl justify-center py-1.5">
+        Cafe grande 2,5$/Cafe pequeño 1,5$
+    </p>
+    <p class="flex text-2xl justify-center space-y-3">
+        Tenemos disponible cafe espresso, americano, cafe con leche, cappuchino,
+        macchiato, entre otros
+    </p>
+    <p class="flex text-lg justify-center text-stone-600"> (Todos valen lo mismo sin importar que tipo de cafe pida) </p>
+
+   <div class="flex justify-between px-25 ">
+    <img class=" h-[350px] w-[650px] object-cover py-3 justify-between" src="/descarga (1).jpg" alt="">
+    <img class=" h-[350px] w-[650px] object-cover py-3 justify-between" src="/cafe.jpg" alt="">
+   </div>
+</section>
+
 <section class="flex gap-7 items-center">
     <div class="px-5 py-3 text-2xl ">
         <p class="text-7xl font-extrabold playfair-display-600 py-4">Desayunos</p>
