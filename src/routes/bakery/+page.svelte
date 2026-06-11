@@ -26,7 +26,7 @@
                 alt=""
             />
             <p class="playfair-display-600 text-5xl">torta de chocolate</p>
-            <p>2.5</p>
+            <p class="text-lg text-stone-800">2.5</p>
         </div>
 
         <div class="flex-3 space-y-16">
