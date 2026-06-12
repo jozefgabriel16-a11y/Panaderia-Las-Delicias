@@ -1,4 +1,4 @@
-<section class=" flex px-5 py-3 items-center justify-between">
+<section class=" flex px-10 py-12 items-center justify-between">
     <div class="flex-1">
         <p class="text-lg text-stone-800 py-4">nuestra coleccion de panes</p>
         <p class="text-7xl playfair-display-600 font-bold">
@@ -18,7 +18,7 @@
     </div>
 </section>
 
-<section class="flex px-5 py-3 justify-between">
+<section class="flex px-10 py-12 justify-between">
     <div>
         
         <img class="h-[450px] w-[450px] object-cover px-2 py-3" src="/can.jpg" alt="" />

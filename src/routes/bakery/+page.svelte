@@ -7,7 +7,7 @@
     <p class="flex justify-center text-7xl playfair-display-600">
         Pastelería las delicias
     </p>
-    <p class="flex justify-center text-3xl py-5 px-5">
+    <p class="flex justify-center text-3xl py-5 px-5 text-center max-w-xl m-auto">
         A curated symphony of French tradition and modern artistry. Each piece
         is hand-crafted daily using the world's finest seasonal ingredients.
     </p>
@@ -25,8 +25,10 @@
                 src="tortah.jpg"
                 alt=""
             />
+            <div class="flex justify-between">
             <p class="playfair-display-600 text-5xl">torta de chocolate</p>
-            <p class="text-lg text-stone-800">2.5</p>
+            <p class="text-lg text-stone-800 py-3">2.5$</p>
+            </div>
         </div>
 
         <div class="flex-3 space-y-16">
@@ -59,7 +61,7 @@
     </div>
 </section>
 
-<section class="flex py-3 px-5 gap-5">
+<section class="flex py-12 px-16 gap-5">
     <Alfajor
         precio={5.0}
         titulo="Alfajor de chocolate"

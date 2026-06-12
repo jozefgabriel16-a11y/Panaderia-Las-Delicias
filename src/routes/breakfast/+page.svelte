@@ -1,4 +1,4 @@
-<section class="py-3">
+<section class="py-12">
     <p
         class="flex text-7xl font-bold gap-1.5 playfair-display-600 justify-center py-1.5"
     >
@@ -19,7 +19,7 @@
    </div>
 </section>
 
-<section class="flex gap-7 items-center">
+<section class="flex gap-7 items-center py-12 px-12">
     <div class="px-5 py-3 text-2xl ">
         <p class="text-7xl font-extrabold playfair-display-600 py-4">Desayunos</p>
         <p class="">Comience su mañana con la elegancia de nuestros desayunos y cafe</p>
@@ -31,7 +31,7 @@
     </div>
 </section>
 
-<section class="flex py-4 px-5">
+<section class="flex py-12 px-18">
     <div class="flex-1 items-center" >
         <p class="text-7xl font-extrabold playfair-display-600 py-4">Desayunos clasicos</p>
     </div>
@@ -55,10 +55,19 @@
                 ricota
             </p>
         </div>
+
+        <div class="flex-1 py-5">
+        <div class="">
+        <div class="flex justify-between">
+            <p class="text-4xl font-bold playfair-display-600 ">Minipan de jamon</p>
+             <p class="text-xl text-stone-600">2,5$</p>
+            </div>
+            <p class="text-xl">Contiene jamon, aceitunas y pasas</p>
+        </div>
     </div>
 </section>
 
-<section class="flex justify-between px-5 py-3">
+<section class="flex justify-between px-12 py-3">
     <div>
         <img class="h-[450px] w-[500px] px-5" src="/cach.jpg" alt="" />
     </div>

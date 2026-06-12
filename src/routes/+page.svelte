@@ -1,9 +1,9 @@
-<section class="flex items-center justify-between px-12">
+<section class="flex items-center justify-between px-12 py-12">
     <div class="flex-2 px-5 py-3 space-y-4">
         <p class="text-7xl font-bold gap-1.5 playfair-display-600">
             El arte del buen pan
         </p>
-        <p class="text-2xl gap-1.5">
+        <p class="text-2xl gap-1.5 text-gray-00">
             Pan fresco con los ingredientes de la mejor calidad
         </p>
 
@@ -17,8 +17,8 @@
     </div>
 </section>
 
-<section class="flex items-center justify-between px-12">
-    <div class="flex-1 h-[600px] w-[600px] space-y-4 py-3">
+<section class="flex items-center justify-between px-12 py-12">
+    <div class="flex-1 h-[600px] w-[600px] space-y-4 py-3 px-2">
         <img class="w-full h-full object-cover" src="/amasando.jpg" alt="" />
     </div>
 
