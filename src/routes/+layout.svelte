@@ -33,17 +33,17 @@
 
 {@render children()}
 
-<footer style="background-color: #E5E2E1; padding: 20px;" class="flex py-5">
+<footer style="background-color: #E5E2E1;" class="flex py-18 ">
 	<div>
 		<a href="">
 			<p
-				class="text-3xl font-extrabold font-serif flex gap-0.5 items-center playfair-display-600"
+				class="text-3xl font-extrabold font-serif flex gap-0.5 items-center playfair-display-600 px-12"
 			>
 				<Icon icon="mdi:bakery" width={60} height={60} />
 				Panaderia <br /> Las Delicias
 			</p>
 
-			<p class="max-w-98">Panaderia tradicional con años de experiencia en el mercado</p>
+			<p class="max-w-98 px-12 py-2 text-xl">Panaderia tradicional con años de experiencia en el mercado</p>
 		</a>
 	</div>
 
@@ -53,5 +53,15 @@
 		<a href="">Carabobo, Venezuela</a>
 
 		<a href="">Lunes a Sabado de 6:30 A.M. a 6:00 P.M.</a>
+	</div>
+
+	<div class="px-3">
+		<p class="text-2xl">Redes Sociales</p>
+		<a href="">Instagram</a>
+	</div>
+
+	<div class="px-3">
+		<p class="text-2xl ">Como Contactarnos</p>
+		<a href="https://api.whatsapp.com/send/?phone=584141456300&text=Buenas, desearia...">Whatsapp</a>
 	</div>
 </footer>
