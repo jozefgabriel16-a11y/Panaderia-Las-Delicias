@@ -26,36 +26,27 @@
 
 {@render children()}
 
-<footer>
-	<div>
-		<p>L'artisan</p>
+<footer style="background-color: #E5E2E1; padding: 20px;" class="flex py-5">
 
-		<a href=""
-			>A boutique bakery dedicated to the preservation of traditional
-			french baking methods and organic ingredients</a
+
+	<div>
+	  <p class="text-3xl font-extrabold font-serif flex gap-0.5 items-center playfair-display-600">
+		<Icon icon="mdi:bakery" width={60} height={60} />
+		Panaderia <br> Las Delicias 
+	</p>
+
+		<a href="" class="text-xl"
+			> Panaderia tradicional con años de experiencia en el mercado</a
 		>
 	</div>
 
+
+	
 	<div>
-		<p>Explore</p>
+		<p class="text-2xl">Ubicacion y horario</p>
 
-		<a href="">contact</a>
-		<a href="">opening hours</a>
-		<a href="">location</a>
-		<a href="">journal</a>
-	</div>
+		<a href="">Carabobo, Venezuela</a>
 
-	<div>
-		<p>connect</p>
-
-		<a href="">instagram</a>
-		<a href="">newsletter</a>
-	</div>
-
-	<div>
-		<p>location</p>
-
-		<a href="">Paris,France</a>
-		<a href="">tuesday-sunday: 7:00am-18:00pm</a>
+		<a href="">Lunes a Sabado de 6:30 A.M. a 6:00 P.M.</a>
 	</div>
 </footer>

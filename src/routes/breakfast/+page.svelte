@@ -31,20 +31,26 @@
     </div>
 </section>
 
-<section>
-    <div>
-        <p>Desayunos clasicos</p>
+<section class="flex py-4 px-5">
+    <div class="flex-1 items-center" >
+        <p class="text-7xl font-extrabold playfair-display-600 py-4">Desayunos clasicos</p>
     </div>
 
-    <div>
-        <div>
-            <p>Cachito</p>
-            <p>Hay disponible de jamon y de jamon con queso</p>
+    <div class="flex-1 py-5">
+        <div class="py-4">
+        <div class="flex justify-between">
+            <p class="text-4xl font-bold playfair-display-600 ">Cachito</p>
+             <p class="text-xl text-stone-600">2,5$</p>
+            </div>
+            <p class="text-xl">Hay disponible de jamon y de jamon con queso</p>
         </div>
 
-        <div>
-            <p>Pastelitos de hojaldre</p>
-            <p>
+        <div class="">
+        <div class="flex justify-between">
+            <p class="text-4xl font-bold playfair-display-600 ">Pastelitos de hojaldre</p>
+            <p class="text-xl text-stone-600">2,5$</p>
+            </div>
+            <p class="text-xl">
                 Hay disponibles de queso, jamon y queso y espinaca con queso
                 ricota
             </p>
@@ -52,17 +58,17 @@
     </div>
 </section>
 
-<section>
+<section class="flex justify-between px-5 py-3">
     <div>
-        <img src="/cach.jpg" alt="" />
+        <img class="h-[450px] w-[500px] px-5" src="/cach.jpg" alt="" />
     </div>
 
     <div>
-        <img src="/jam.jpg" alt="" />
+        <img class="h-[450px] w-5400px] px-5" src="/jam.jpg" alt="" />
     </div>
 
     <div>
-        <img src="/que.jpeg" alt="" />
+        <img class="h-[450px] w-[500px] px-5" src="/que.jpeg" alt="" />
     </div>
 
 </section>
