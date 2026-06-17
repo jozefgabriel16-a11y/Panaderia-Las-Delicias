@@ -7,10 +7,12 @@
             Pan fresco con los ingredientes de la mejor calidad
         </p>
 
-        <button
-            class="px-10 py-2 items-end text-2xl font-bold bg-stone-600 text-amber-50 hover:bg-stone-700 transition-colors"
-            >Pide ahora
-        </button>
+        <a
+            class="inline-block px-10 py-2 text-2xl font-bold bg-stone-600 text-amber-50 hover:bg-stone-700 transition-colors"
+            href="https://api.whatsapp.com/send/?phone=584141456300&text=Buenas, desearia..."
+            >
+            Pide ahora
+        </a>
     </div>
     <div class="flex-3 h-[650px]">
         <img class="w-full h-full object-cover" src="/paninicio.jpg" alt="" />

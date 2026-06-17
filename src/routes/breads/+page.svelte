@@ -1,4 +1,4 @@
-<section class=" flex px-10 py-12 items-center justify-between">
+<section class=" flex px-13 py-12 items-center justify-between">
     <div class="flex-1">
         <p class="text-lg text-stone-800 py-4">nuestra coleccion de panes</p>
         <p class="text-7xl playfair-display-600 font-bold">

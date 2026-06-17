@@ -50,14 +50,9 @@
 	<div>
 		<p class="text-2xl">Ubicacion y horario</p>
 
-		<a href="">Carabobo, Venezuela</a>
-
-		<a href="">Lunes a Sabado de 6:30 A.M. a 6:00 P.M.</a>
-	</div>
-
-	<div class="px-3">
-		<p class="text-2xl">Redes Sociales</p>
-		<a href="">Instagram</a>
+		<p>Carabobo, Venezuela</p>
+ 
+	    <p>Lunes a Sabado de 6:30 A.M. a 6:00 P.M.</p>
 	</div>
 
 	<div class="px-3">
