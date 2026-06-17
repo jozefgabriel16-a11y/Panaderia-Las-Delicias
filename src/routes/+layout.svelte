@@ -8,7 +8,7 @@
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
-<nav class="flex justify-between items-center px-10 py-3">
+<nav class="flex items-center px-10 py-3">
 	<p
 		class="text-3xl font-extrabold font-serif flex gap-0.5 items-center playfair-display-600"
 	>
@@ -16,7 +16,7 @@
 		Panaderia <br /> Las Delicias
 	</p>
 
-	<div class="flex gap-3.5 uppercase font-semibold">
+	<div class="flex flex-1 gap-3.5 uppercase font-semibold justify-center items-center text-center">
 		<a class="flex gap-0.5 items-center" href="/">Home</a>
 		<a class="flex gap-0.5 items-center" href="/breads">Panes</a>
 		<a class="flex gap-0.5 items-center" href="/bakery">Pastelería</a>
