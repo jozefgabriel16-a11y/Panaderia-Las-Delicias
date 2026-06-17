@@ -1,4 +1,4 @@
-<section class="flex items-center justify-between px-12 py-12">
+<section class="flex items-center justify-between px-12 py-12 flex-col md:flex-row">
     <div class="flex-2 px-5 py-3 space-y-4">
         <p class="text-7xl font-bold gap-1.5 playfair-display-600">
             El arte del buen pan
@@ -19,7 +19,7 @@
     </div>
 </section>
 
-<section class="flex items-center justify-between px-12 py-12">
+<section class="flex items-center justify-between px-12 py-12 flex-col md:flex-row">
     <div class="flex-1 h-[600px] w-[600px] space-y-4 py-3 px-2">
         <img class="w-full h-full object-cover" src="/amasando.jpg" alt="" />
     </div>

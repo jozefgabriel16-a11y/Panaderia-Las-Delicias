@@ -2,7 +2,7 @@
     import Alfajor from "$lib/components/Alfajor.svelte";
 </script>
 
-<section class="py-5">
+<section class="py-5 flex-col md:flex-row">
     <p class="flex justify-center text-lg playfair-display-600">LA COLECCIÓN</p>
     <p class="flex justify-center text-7xl playfair-display-600">
         Pastelería las delicias
